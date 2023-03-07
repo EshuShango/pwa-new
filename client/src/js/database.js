@@ -32,20 +32,18 @@ export const putDb = async (content) => {
   console.log("🚀 - data saved to the database", result.value);
 };
 
-/*
-  We need to add some code below which will get all content from IndexedDB.
-*/
+
 export const getDb = async () => {
-  // You can duplicate the same first lines of code from above, except that the transaction will be 'readonly'
+  
   const jateDb = await openDB("pwaData", 1);
 
-  // Now create a variable for the transaction
+
   const tx = jateDb.transaction("pwaData", "readonly");
 
-  // Now create a variable for the store
+
   const store = tx.objectStore("pwaData");
 
-  // Leave the rest as-is
+ 
   const request = store.get(1);
   const result = await request;
   result
