@@ -51,6 +51,13 @@ THEN I should have proper build scripts for a webpack application``
 ## License 📝
 'click the license badge at the beginning of the document to get more info'
 
+## Mock up 
+![vid](https://watch.screencastify.com/v/MVIDGGLOOy3JWZI4CNHL)
+
+![vid]()
+![vid]()
+)
+
 
 ## Things I Learned 📚
 * `PWA are least fav`
