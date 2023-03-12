@@ -10,7 +10,7 @@
 
 
 ## Description 🔎
-
+ A simple note editor PWA app that allows users to create and save notes. This application will use an Express.js back end and will save data to IndexedDB.
 
 ## Table of Contents 📖
 - [Usage](#Acceptance Criteria) 
